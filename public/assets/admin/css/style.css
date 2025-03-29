@@ -1,0 +1,49 @@
+body {
+	margin:0;
+	padding:0
+}
+.container {
+	width:600px;
+	margin:0 auto;
+	margin-top:50px
+}
+.tab-menu {
+	display:block;
+	margin:0;
+	padding:0;
+	text-align:left
+}
+.tab-menu li {
+	list-style:none;
+	display:inline-block;
+	margin:0 10px 10px 0
+}
+.tab-menu li a {
+	display:block;
+	color:#666;
+	padding:15px;
+	font-size:14px;
+	font-family: Arial;
+	text-decoration:none;
+	border:1px solid #ddd
+}
+
+.tab-content {
+	display:none
+}
+#tab1 {
+	display:block
+}
+
+.tab-container {
+	border:1px solid #ddd;
+	padding:30px;
+	font-family: Arial;
+	font-size:14px;
+	color:#666
+}
+.current a {
+	background:#666 !important;
+	border:1px solid #666 !important;
+	color:#fff !important
+}
